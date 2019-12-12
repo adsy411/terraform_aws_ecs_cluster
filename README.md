@@ -8,5 +8,5 @@ Step-2
   `cd ./terraform_aws_ecs_cluster
   terraform init
   terraform plan -var-file=./secrets.tfvars
-  terraform plan -var-file=./secrets.tfvars`
+  terraform apply -var-file=./secrets.tfvars`
   
